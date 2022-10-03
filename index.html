@@ -9,98 +9,106 @@
 </head>
 
 <body>
-    <section id="introductioon">
+    <header>
         <h1> Pancake! </h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Blueberry_pancakes_%283%29.jpg" class="center" />
-        <h2>Introduction</h2>
-        <p>Hi! This is our favorite pancake recepie. We hope you enjoy it!</p>
-    </section>
-    <section id="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-            <li>salt</li>
-            <li>sugar</li>
-            <li>eggs</li>
-            <li>flour</li>
-        </ul>
-    </section>
-    <section id="steps">
-        <h2>Steps</h2>
-        <ol start=01>
-            <li>In a large bowl, sift together the flour, baking powder, salt and sugar.
-                Make a well in the center and pour in the milk, egg and melted butter; mix until smooth.</li>
-            <li>Heat a lightly oiled griddle or frying pan over medium-high heat.
-                Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake.
-                Brown on both sides and serve hot</li>
-        </ol>
-    </section>
-    <section id="form">
-        <p>We would like to learn more about your pancake preferences for no particular reason.
-            <br>
-            Please fill out the form below if you would like to share.
-        </p>
-        <h2></h2>
-        <form action="submission.html" method="POST">
-            <section class="amount">
-                <label for="amount">How many pancakes do you eat per week?</label>
-                <input type="number" name="amount" id="amount" min="0" max="100" required>
-            </section>
-            <br>
-            <section class="radius">
-                <label for="radius">Which pancake radius do you prefer?</label>
-                <span>Small</span>
-                <input type="range" name="radius" id="radius" min="0" max="10" step="1">
-                <span>Large</span>
-            </section>
-            <br>
-            <section class="blueberries">
-                <span>Do you put blueberries on your pankakes?</span>
-                <label for="yes">yes</label>
-                <input type="radio" name="blueberries" id="yes" vlaue="yes">
-                <label for="no">no</label>
-                <input type="radio" name="blueberries" id="no" vlaue="no">
-            </section>
-            <br>
-            <section class="preference">
-                <span>Which pancakes are your favorite?</span>
-                <label for="american">American</label>
-                <input type="checkbox" name="preference" id="american" value="american">
-                <label for="crepes">Crepes</label>
-                <input type="checkbox" name="preference" id="crepes" value="crepes">
-                <label for="other">Other</label>
-                <input type="checkbox" name="preference" id="other" value="other">
-            </section>
-            <br>
-            <section class="submission">
-                <input type="submit" value="Submit">
-            </section>
-        </form>
-        <br>
-    </section>
-    <section id="end">
-        <form action="submission.html" method="POST">
-            <section class="user-recepie">
-                <span>
-                    Did you enjoy our pancakes
-                    or do you know a beeter recepie?
-                </span>
+        <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Blueberry_pancakes_%283%29.jpg" class="center"
+            alt="Blueberry pancake" />
+            <figcaption>This picture shows some blueberry pankakes</figcaption>
+        </figure>        
+    </header>
+    <main>
+        <section id="introductioon">
+            <h2>Introduction</h2>
+            <p>Hi! This is our favorite pancake recepie. We hope you enjoy it!</p>
+        </section>
+        <section id="ingredients">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>salt</li>
+                <li>sugar</li>
+                <li>eggs</li>
+                <li>flour</li>
+            </ul>
+        </section>
+        <section id="steps">
+            <h2>Steps</h2>
+            <ol start=01>
+                <li>In a large bowl, sift together the flour, baking powder, salt and sugar.
+                    Make a well in the center and pour in the milk, egg and melted butter; mix until smooth.</li>
+                <li>Heat a lightly oiled griddle or frying pan over medium-high heat.
+                    Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake.
+                    Brown on both sides and serve hot</li>
+            </ol>
+        </section>
+        <section id="form">
+            <p>We would like to learn more about your pancake preferences for no particular reason.
                 <br>
-                <label for="recepie">Feel free share your pankakes recepie below:</label>
+                Please fill out the form below if you would like to share.
+            </p>
+            <h2></h2>
+            <form action="submission.html" method="POST">
+                <section class="amount">
+                    <label for="amount">How many pancakes do you eat per week?</label>
+                    <input type="number" name="amount" id="amount" min="0" max="100" required>
+                </section>
                 <br>
+                <section class="radius">
+                    <label for="radius">Which pancake radius do you prefer?</label>
+                    <span>Small</span>
+                    <input type="range" name="radius" id="radius" min="0" max="10" step="1">
+                    <span>Large</span>
+                </section>
                 <br>
-                <textarea name="recepie" id="recepie" rows="3" cols="40"
-                    placeholder="Type your recepie here.(max.500 characters)" minlength="5" maxlength="500"
-                    required></textarea>
-            </section>
+                <section class="blueberries">
+                    <span>Do you put blueberries on your pankakes?</span>
+                    <label for="yes">yes</label>
+                    <input type="radio" name="blueberries" id="yes" vlaue="yes">
+                    <label for="no">no</label>
+                    <input type="radio" name="blueberries" id="no" vlaue="no">
+                </section>
+                <br>
+                <section class="preference">
+                    <span>Which pancakes are your favorite?</span>
+                    <label for="american">American</label>
+                    <input type="checkbox" name="preference" id="american" value="american">
+                    <label for="crepes">Crepes</label>
+                    <input type="checkbox" name="preference" id="crepes" value="crepes">
+                    <label for="other">Other</label>
+                    <input type="checkbox" name="preference" id="other" value="other">
+                </section>
+                <br>
+                <section class="submission">
+                    <input type="submit" value="Submit">
+                </section>
+            </form>
             <br>
-            <section class="submission">
-                <input type="submit" value="Send">
-            </section>
-        </form>
-    </section>
-
-    <p>Thank you, bye!</p>
-    </section>
+        </section>
+        <section id="end">
+            <form action="submission.html" method="POST">
+                <section class="user-recepie">
+                    <span>
+                        Did you enjoy our pancakes
+                        or do you know a beeter recepie?
+                    </span>
+                    <br>
+                    <label for="recepie">Feel free share your pankakes recepie below:</label>
+                    <br>
+                    <br>
+                    <textarea name="recepie" id="recepie" rows="3" cols="40"
+                        placeholder="Type your recepie here.(max.500 characters)" minlength="5" maxlength="500"
+                        required></textarea>
+                </section>
+                <br>
+                <section class="submission">
+                    <input type="submit" value="Send">
+                </section>
+            </form>            
+        </section>
+    </main>
+    <footer>
+        <p>Thank you, bye!</p>
+    </footer>
 </body>
 
 </html>
