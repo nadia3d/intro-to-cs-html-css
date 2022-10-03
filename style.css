@@ -25,14 +25,20 @@ header {
   font-size: 100%;
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
 } */
-
+body {
+  font-size: 100%;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
+}
 h1 {
-  /* color: rgb(148, 15, 169);  */
-  font-family: "Space Grotesk", sans-serif;
-  /* font-size: 120%; */
   text-align: center;
 }
-h2 {
+h1, h2 {
+  /* color: rgb(148, 15, 169);  */
+  font-family: "Space Grotesk", sans-serif;
+
+}
+
+input {
   /* color: rgb(148, 15, 169);  */
   font-family: "Space Grotesk", sans-serif;
 
@@ -43,10 +49,7 @@ h2 {
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
 } */
 
-p, ol, ul, form, input {
-  font-size: 100%;
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
-}
+
 
   /* h1,
   h2,
