@@ -40,7 +40,7 @@
             Please fill out the form below if you would like to share.
         </p>
         <h2></h2>
-        <form>
+        <form  action="submission.html" method="POST">
             <section class="amount">
                 <label for="amount">How many pancakes do you eat per week?</label>
                 <input type="number" name="amount" id="amount">
@@ -78,8 +78,8 @@
         <br>
     </section>
     <section id="end">
-        <section class="user-recepie">
-            <form>
+        <form  action="submission.html" method="POST">
+            <section class="user-recepie">
                 <span>
                     Did you enjoy our pancakes
                     or do you know a beeter recepie?
@@ -89,12 +89,15 @@
                 <br>
                 <br>
                 <textarea name="recepie" id="recepie" rows="3" cols="40">Type your recepie here.</textarea>
-                <br>
+            </section>
+            <br>
+            <section class="submission">
                 <input type="submit" value="Send">
-            </form>
-        </section>
+            </section>            
+        </form>
+    </section>
 
-        <p>Thank you, bye!</p>
+    <p>Thank you, bye!</p>
     </section>
 </body>
 
