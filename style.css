@@ -1,33 +1,57 @@
 body {
-    background-color: lightblue;
-  }
-  
-  header {
-    /* color: rgb(148, 15, 169); */
-    text-align: center;
-  }
-  
-  /* p {
+  background-color: lightblue;
+}
+
+header {
+  /* color: rgb(148, 15, 169); */
+  text-align: center;
+}
+
+/* p {
     font-family: verdana;
     font-size: 20px;
   }  */
 
 
-  .center {
-    display: block;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-  }
+.center {
+  display: block;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
 
-  * {
-    font-size: 100%;
-    font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace !important;
-   }
+/* * {
+  font-size: 100%;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
+} */
 
-   h1 {
-    /* color: rgb(148, 15, 169); */
-    font-size: 120%; 
-    text-align: center;
-  }
+h1 {
+  /* color: rgb(148, 15, 169);  */
+  font-family: "Space Grotesk", sans-serif;
+  /* font-size: 120%; */
+  text-align: center;
+}
+h2 {
+  /* color: rgb(148, 15, 169);  */
+  font-family: "Space Grotesk", sans-serif;
+
+}
+
+/* * {
+  font-size: 100%;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
+} */
+
+p, ol, ul, form, input {
+  font-size: 100%;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
+}
+
+  /* h1,
+  h2,
+  h3 {
+    font-family: "SE Inter", "Space Grotesk", Helvetica, sans-serif;
+    font-weight: 600;
+      color: #333;
+      } */
