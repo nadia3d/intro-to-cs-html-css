@@ -40,10 +40,10 @@
             Please fill out the form below if you would like to share.
         </p>
         <h2></h2>
-        <form  action="submission.html" method="POST">
+        <form action="submission.html" method="POST">
             <section class="amount">
                 <label for="amount">How many pancakes do you eat per week?</label>
-                <input type="number" name="amount" id="amount" required>
+                <input type="number" name="amount" id="amount" min="0" max="100" required>
             </section>
             <br>
             <section class="radius">
@@ -78,7 +78,7 @@
         <br>
     </section>
     <section id="end">
-        <form  action="submission.html" method="POST">
+        <form action="submission.html" method="POST">
             <section class="user-recepie">
                 <span>
                     Did you enjoy our pancakes
@@ -88,12 +88,14 @@
                 <label for="recepie">Feel free share your pankakes recepie below:</label>
                 <br>
                 <br>
-                <textarea name="recepie" id="recepie" rows="3" cols="40" placeholder="Type your recepie here."></textarea>
+                <textarea name="recepie" id="recepie" rows="3" cols="40"
+                    placeholder="Type your recepie here.(max.500 characters)" minlength="5" maxlength="500"
+                    required></textarea>
             </section>
             <br>
             <section class="submission">
                 <input type="submit" value="Send">
-            </section>            
+            </section>
         </form>
     </section>
 
