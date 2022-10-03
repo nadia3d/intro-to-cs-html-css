@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Our Pancake </title>
 
 </head>
@@ -10,9 +10,9 @@
 <body>
     <section id="introductioon">
         <h1> Pancake! </h1>
-        <img src= "https://upload.wikimedia.org/wikipedia/commons/4/43/Blueberry_pancakes_%283%29.jpg" class="center"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Blueberry_pancakes_%283%29.jpg" class="center" />
         <h2>Introduction</h2>
-        <p>Hi! This is our pancake recepie. We hope you enjoy it!</p>
+        <p>Hi! This is our favorite pancake recepie. We hope you enjoy it!</p>
     </section>
     <section id="ingredients">
         <h2>Ingredients</h2>
@@ -25,28 +25,67 @@
     </section>
     <section id="steps">
         <h2>Steps</h2>
-        <ol start= 01>
-            <li>In a large bowl, sift together the flour, baking powder, salt and 	sugar.
-            Make a well in the center and pour in the milk, egg and melted butter; mix until smooth.</li>
-    	    <li>Heat a lightly oiled griddle or frying pan over medium-high heat.
-            Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake.
-            Brown on both sides and serve hot</li>
+        <ol start=01>
+            <li>In a large bowl, sift together the flour, baking powder, salt and sugar.
+                Make a well in the center and pour in the milk, egg and melted butter; mix until smooth.</li>
+            <li>Heat a lightly oiled griddle or frying pan over medium-high heat.
+                Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake.
+                Brown on both sides and serve hot</li>
         </ol>
     </section>
-	<section id="form">
+    <section id="form">
+        <p>We would like to learn more about your pancake preferences for no particular reason.
+            <br>
+            Please fill out the form below if you would like to share.
+        </p>
+        <h2></h2>
         <form>
-            <section class="pancakes">
-              <label for="amount">How many pancakes do you eat per week?</label>
-              <input type="number" name="amount" id="amount">
-          </section>
-      </form>
+            <section class="amount">
+                <label for="amount">How many pancakes do you eat per week?</label>
+                <input type="number" name="amount" id="amount">
+            </section>
+            <br>
+            <section class="radius">
+                <label for="radius">Which pancake radius do you prefer?</label>
+                <span>Small</span>
+                <input type="range" name="radius" id="radius" min="0" max="10" step="1">
+                <span>Large</span>
+            </section>
+            <br>
+            <section class="blueberries">
+                <span>Do you put blueberries on your pankakes?</span>
+                <label for="yes">yes</label>
+                <input type="radio" name="blueberries" id="yes" vlaue="yes">
+                <label for="no">no</label>
+                <input type="radio" name="blueberries" id="no" vlaue="no">
+            </section>
+            <br>
+            <section class="preference">
+                <span>Which pancakes are your favorite?</span>
+                <label for="american">American</label>
+                <input type="checkbox" name="preference" id="american" value="american">
+                <label for="crepes">Crepes</label>
+                <input type="checkbox" name="preference" id="crepes" value="crepes">
+                <label for="other">Other</label>
+                <input type="checkbox" name="preference" id="other" value="other">
+            </section>
+
+            <!--change this code to "which type of pankakes" multiple choice.
+                for yes no questions use radio buttons.
+            
+                 <section class="blueberries">
+                <span>Do you put blueberries on your pankakes?</span>
+                <label for="yes">yes</label>
+                <input type="checkbox" name="blueberries" id="yes" vlaue="yes">
+                <label for="no">no</label>
+                <input type="checkbox" name="blueberries" id="no" vlaue="no">
+            </section> -->
+            <br>
+        </form>
     </section>
     <section id="end">
         <p>Thank you, bye!</p>
     </section>
 </body>
+
 </html>
-
-
-
-
